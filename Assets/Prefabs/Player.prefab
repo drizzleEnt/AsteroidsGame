@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7502388638226811268}
   - component: {fileID: 7502388638226811272}
+  - component: {fileID: 4108044689292025889}
   - component: {fileID: 7502388638226811271}
   - component: {fileID: 7502388638226811270}
   - component: {fileID: 7502388638226811269}
@@ -59,6 +60,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4108044689292025889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7502388638226811266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562cedea6b443694f8f8ec6562e2f797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7502388638226811271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,6 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdb750409d8ecfe46a81b7541ca1e9f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _health: 0
 --- !u!70 &7502388638226811275
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -172,6 +186,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

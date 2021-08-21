@@ -34,9 +34,9 @@ public abstract class Asteroid : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent<Bullet>(out Bullet bullet))
+        if (collision.TryGetComponent(out Bullet bullet))
              Die();
-        if (collision.TryGetComponent<Player>(out Player player))
+        if (collision.TryGetComponent(out Player player))
             gameObject.SetActive(false);
        
         
